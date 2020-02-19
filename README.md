@@ -4,7 +4,7 @@ Directadmin 1.53.2 Nulled + Working License File
 
 [root@sucuri ~]# yum -y install nano wget perl
 
-[root@sucuri ~]# wget https://raw.githubusercontent.com/LinuxGuard/Directadmin-1.53.2-Nulled/master/setup.sh
+[root@sucuri ~]# wget https://raw.githubusercontent.com/udoncyber/Directadmin-1.53.2-Nulled/master/setup.sh
 
 [root@sucuri ~]# chmod +x setup.sh
 
@@ -42,9 +42,9 @@ Client ID (uid): 9192 License ID (lid): 919233
 
 [root@sucuri ~]# chown diradmin:diradmin /usr/local/directadmin/conf/license.key
 
-[root@sucuri ~]# ifconfig eth0:92 37.97.247.189 netmask 255.255.255.0 up
+[root@sucuri ~]# ifconfig eth0:100 37.97.247.189 netmask 255.255.255.0 up
 
-[root@sucuri ~]# echo 'DEVICE=eth0:92' >> /etc/sysconfig/network-scripts/ifcfg-eth0:92
+[root@sucuri ~]# echo 'DEVICE=eth0:100' >> /etc/sysconfig/network-scripts/ifcfg-eth0:92
 
 [root@sucuri ~]# echo 'IPADDR=37.97.247.189' >> /etc/sysconfig/network-scripts/ifcfg-eth0:92
 
